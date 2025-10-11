@@ -8,7 +8,7 @@
 
 <div align="center">
 
-© 2025 Virginie Lechene — Tous droits réservés  
+© 2025 Virginie Lechene - Tous droits réservés  
 Reproduction interdite sans autorisation préalable.  
 Usage pédagogique uniquement.  
 
