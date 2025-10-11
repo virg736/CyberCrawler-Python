@@ -101,6 +101,14 @@ Toutes les commandes sont exécutées dans les VMs (captures d’écran disponib
 
 -----
 
+## 🧭 Topologie du laboratoire
+
+> **Note :** Toutes les opérations du projet ont été réalisées dans un **réseau interne isolé (VirtualBox – Lan-Test)**.  
+> Aucune connexion Internet ni ressource externe n’a été utilisée, garantissant la **sécurité** et la **légalité** des tests.
+
+
+
+
 
 ##  Commandes & procédure (chronologique, à exécuter dans les VMs)
 
