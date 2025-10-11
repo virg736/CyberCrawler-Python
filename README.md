@@ -1,5 +1,5 @@
 # 🕷️ CyberCrawler-Python
-
+[![Python CI](https://github.com/virg736/CyberCrawler-Python/actions/workflows/python-ci.yml/badge.svg)](https://github.com/virg736/CyberCrawler-Python/actions/workflows/python-ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 <p align="center">
