@@ -1,8 +1,8 @@
 # Projet 1 - Réseau VM & Docker (Parrot ↔ Debian + Juice Shop)
 
 **Auteur :** Virginie Lechene  
-**Projet :** Python Project - Cybersecurity & Automation (préparation infra)  
-**Objectif :** Mettre en place un laboratoire isolé (VirtualBox) entre deux machines virtuelles - **Parrot OS** (attaquant) et **Debian** (victime) - lancer une application vulnérable (OWASP Juice Shop) dans Docker sur la VM victime et vérifier l’accès depuis la VM attaquante.
+**Projet :** Python Project - Cybersecurity & Automation (préparation de l'infrastructure)  
+**Objectif :** Mettre en place un laboratoire isolé (VirtualBox) entre deux machines virtuelles - **Parrot OS** (attaquant) et **Debian** (victime) - lancer une application vulnérable (OWASP Juice Shop) dans Docker sur la VM victime et vérifier l'accès depuis la VM attaquante.
 
 ---
 
@@ -12,14 +12,14 @@ Le projet est divisé en plusieurs étapes pédagogiques et modulaires :
 | Étape | Fonction |
 |---:|:---|
 | ✅ Étape 1 | Crawler HTML récursif |
-| 🔜 Étape 2 | Détection d’injection SQL |
+| 🔜 Étape 2 | Détection d'injection SQL |
 | 🔜 Étape 3 | Détection de failles XSS |
 | 🔜 Étape 4 | Recherche de données sensibles |
 | 🔜 Étape 5 | Génération de rapport JSON / Markdown |
 
 
 > 🧭 **Note importante :**  
-> Ce projet fait partie d’une série de **5 étapes** qui seront publiées progressivement.  
+> Ce projet fait partie d'une série de **5 étapes** qui seront publiées progressivement.  
 > Chaque étape correspond à une fonctionnalité clé du projet **CyberCrawler-Python**.  
 >  
 > 🔔 **Pensez à suivre le dépôt GitHub**  
