@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 <p align="center">
   <img src="https://github.com/virg736/CyberCrawler-Python/blob/main/Projet%20Python.PNG" 
        alt="Illustration du projet CyberCrawler-Python" width="850">
