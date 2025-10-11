@@ -1,3 +1,10 @@
+<p align="center">
+  <img src="https://github.com/virg736/CyberCrawler-Python/blob/main/Projet%20Python.PNG" 
+       alt="Illustration du projet CyberCrawler-Python" width="850">
+  <br>
+  <em>Illustration du projet <strong>CyberCrawler-Python</strong></em>
+</p>
+
 # Projet 1 - Réseau VM & Docker (Parrot ↔ Debian + Juice Shop)
 
 **Auteur :** Virginie Lechene  
