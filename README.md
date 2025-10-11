@@ -95,3 +95,31 @@ curl -I http://192.168.100.10:3000
 ou récupérer le HTML  
 curl http://192.168.100.10:3000  
 ✅ Attendu : HTTP/1.1 200 OK et contenu HTML  
+
+---
+
+## Pourquoi ce projet est moderne et utile
+
+Ce projet fournit un environnement de cybersécurité moderne et pédagogique, conçu pour reproduire les pratiques réelles des ingénieurs en sécurité offensive.
+
+### 🧠 Une approche structurée et réaliste
+- Le projet est découpé en étapes claires et modulaires : Crawler → Détection SQLi → Détection XSS → Recherche de données sensibles → Rapports.  
+- Chaque étape est indépendante, automatisable et testable.  
+- L’environnement repose sur des machines virtuelles isolées (Parrot OS & Debian) pour garantir sécurité et légalité des tests.
+
+### 🕸️ Le Crawler HTML récursif
+- Cœur du **Projet 1** : explore automatiquement les pages d’un site interne.  
+- Conçu pour découvrir les liens internes, éviter les doublons et fournir une carte claire du site — utile pour l’analyse de vulnérabilités.  
+- Implémenté en Python 3 avec `requests` et `BeautifulSoup`, des bibliothèques éprouvées et faciles à maintenir.
+
+### 💡 Ce qui rend le projet moderne
+- Code simple, lisible et commenté — idéal pour l’apprentissage et la collaboration.  
+- Conçu pour évoluer facilement vers des technologies plus avancées :
+  - `asyncio` + `httpx` pour un crawl asynchrone et plus rapide ;  
+  - `logging` et configuration pour une exécution professionnelle ;  
+  - génération automatique de rapports JSON / Markdown ;  
+  - intégration possible de Playwright pour crawler les sites dynamiques (JS).  
+- Respect des bonnes pratiques : le projet s’exécute dans un réseau local isolé et ne cible jamais des sites publics sans autorisation.
+
+### 🧩 En résumé
+Ce projet montre comment construire, étape par étape, un outil d’analyse web moderne, éthique et automatisé, alliant programmation Python, méthodologie de tests et bonnes pratiques de cybersécurité.
