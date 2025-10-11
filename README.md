@@ -91,6 +91,14 @@ ip -br a
 ip route  
 
 
+<p align="center">
+  <img src="https://github.com/virg736/CyberCrawler-Python/blob/main/projet_python_1.PNG" 
+       alt="Ping + lancement Juice Shop (Debian)" width="850">
+  <br>
+  <em>Ping Parrot ↔ Debian et démarrage de Juice Shop dans Docker</em>
+</p>
+
+
 Sur Parrot (attaquant) :  
 sudo ip addr add 192.168.100.20/24 dev enp0s3  
 sudo ip link set enp0s3 up  
