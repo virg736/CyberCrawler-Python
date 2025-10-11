@@ -57,3 +57,21 @@ Toutes les commandes sont exécutées dans les VMs (captures d’écran disponib
 ### 1) Vérifier les interfaces (sur chaque VM)
 
 ip -br a
+
+2) Assigner une IP temporaire & activer l’interface
+
+(remplace enp0s3 par l’interface active si différent)
+
+Sur Debian (victime) :
+
+sudo ip addr add 192.168.100.10/24 dev enp0s3
+sudo ip link set enp0s3 up
+ip -br a
+ip route
+
+Sur Parrot (attaquant) :
+sudo ip addr add 192.168.100.20/24 dev enp0s3
+sudo ip link set enp0s3 up
+ip -br a
+
+3) Vérifier la connectivité depuis Parrot
