@@ -104,6 +104,13 @@ sudo ip addr add 192.168.100.20/24 dev enp0s3
 sudo ip link set enp0s3 up  
 ip -br a    
 
+<p align="center">
+  <img src="https://github.com/virg736/CyberCrawler-Python/blob/main/projet_python_ip.PNG" 
+       alt="Test de connectivité IP entre Parrot et Debian" width="850">
+  <br>
+  <em>Test de connectivité entre Parrot (attaquant) et Debian (victime) — Ping réussi</em>
+</p>
+
 3) Vérifier la connectivité depuis Parrot  
 ping -c 4 192.168.100.10  
 ✅ Attendu : 4 packets transmitted, 4 received, 0% packet loss     
