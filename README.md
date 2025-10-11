@@ -174,7 +174,7 @@ Fichier standard qui sert à créer un conteneur (par ex. `bkimminich/juice-shop
 Application web volontairement vulnérable utilisée pour apprendre la sécurité web.
 
 ✅**Parrot OS / Debian**  
-Distributions Linux utilisées : Parrot (attaquant) et Debian (victime).
+Distributions Linux utilisées : Parrot OS pour les outils de tests d'intrusion (attaquant) et Debian   (victime).
 
 ✅**Interface réseau (ex. `enp0s3`)**  
 Nom de la carte réseau dans la VM. On lui assigne une adresse IP pour communiquer.
@@ -189,13 +189,13 @@ Mode réseau qui permet aux VM de communiquer entre elles sans sortir sur Intern
 Commande qui vérifie si une machine répond (ICMP). Utile pour tester la connectivité réseau.
 
 ✅**curl**  
-Outil pour effectuer des requêtes HTTP depuis le terminal (tester une page web ou obtenir les en-têtes).
+Outil permettant d'effectuer des requêtes HTTP depuis le terminal (tester une page web ou obtenir les en-têtes).
 
 ✅**Port (ex. 3000)**  
 Canal sur lequel une application écoute. Juice Shop écoute sur le port 3000.
 
 ✅**ss / netstat**  
-Outils pour lister les connexions et les services écoutant sur les ports (ex. `ss -tlnp`).
+Outils permettant de lister les connexions et les services écoutant sur les ports (ex. `ss -tlnp`).
 
 ✅**Crawler HTML**  
 Programme qui parcourt automatiquement les pages d’un site en suivant les liens internes.
@@ -207,7 +207,7 @@ Adresse d’une page web (ex. `http://192.168.100.10:3000`).
 Protocole web. Code `200` signifie « OK » (page accessible).
 
 ✅**BeautifulSoup / Requests**  
-Bibliothèques Python utilisées pour récupérer une page (Requests) et la parser (BeautifulSoup).
+Bibliothèques Python utilisées pour récupérer et analyser le contenu HTML.
 
 ✅**Asynchrone (asyncio / httpx)**  
 Technique pour accélérer le crawler en faisant plusieurs requêtes en même temps.
@@ -216,19 +216,19 @@ Technique pour accélérer le crawler en faisant plusieurs requêtes en même te
 Enregistrement des actions du programme (utile pour déboguer et générer des rapports).
 
 ✅**SQL Injection (SQLi)**  
-Type de faille où un attaquant injecte du code SQL dans un champ pour manipuler la base de données.
+Type de faille où un attaquant injecte du code SQL dans un champ afin manipuler la base de données.
 
 ✅**XSS (Cross-Site Scripting)**  
-Faille permettant d’injecter du JavaScript malveillant dans une page web.
+Faille permettant d’injecter du code JavaScript malveillant dans une page web.
 
 ✅**Données sensibles**  
-Infos qu’il ne faut pas exposer publiquement (mots de passe, clés API, adresses privées).
+Informationss qu’il ne faut pas exposer publiquement (mots de passe, clés API, adresses privées).
 
 ✅**JSON / Markdown**  
-Formats de sortie possibles pour les rapports : JSON (machine-readable) et Markdown (lisible humainement).
+Formats de sortie utilisées pour les rapports : JSON (machine-readable) et Markdown (lisible par humain).
 
 ✅**Playwright**  
-Outil pour automatiser un navigateur (utile pour crawler des sites générés par JavaScript).
+Outil permettant d'automatiser un navigateur (utile pour crawler des sites générés par JavaScript).
 
 ✅**Bonnes pratiques & légalité**  
 Ce projet s’exécute dans un laboratoire isolé (VM + réseau interne). Ne scannez ni n’attaquez jamais des sites réels sans autorisation écrite.
