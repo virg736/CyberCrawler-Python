@@ -27,6 +27,18 @@ Le projet est divisé en plusieurs étapes pédagogiques et modulaires :
 
 ---
 
+## 🧰 Outils modernes utilisés
+
+- **Python 3** — Langage principal du projet  
+- **Requests** & **BeautifulSoup4** — Pour le crawler web  
+- **Docker** — Pour exécuter l’application vulnérable (*Juice Shop*)  
+- **ip** & **ss** — Commandes réseau modernes (remplacent *ifconfig* / *netstat*)  
+- **curl** — Pour tester les pages web depuis la VM  
+- **Git & GitHub** — Pour la gestion et le partage du code  
+
+> 💡 Tous les outils utilisés sont récents, stables et conformes aux standards modernes de la cybersécurité et du développement Python.
+
+---
 ##  Résumé (ce que contient ce dépôt)
 Ce dépôt documente et automatise la préparation de l’environnement pour l’Étape 1 :
 1. Configuration réseau VirtualBox (réseau interne `Lan-Test`) entre Parrot et Debian.
