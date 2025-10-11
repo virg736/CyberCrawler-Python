@@ -32,7 +32,7 @@ Le projet est divisé en plusieurs étapes pédagogiques et modulaires :
 - **Python 3** - Langage principal du projet  
 - **Requests** & **BeautifulSoup4** - Pour le crawler web  
 - **Docker** - Pour exécuter l’application vulnérable (*Juice Shop*)  
-- **ip** & **ss** - Commandes réseau modernes (remplaçantt *ifconfig* / *netstat*)  
+- **ip** & **ss** - Commandes réseau modernes (remplaçant *ifconfig* / *netstat*)  
 - **curl** - Pour tester les pages web depuis la VM  
 - **Git & GitHub** - Pour la gestion et le partage du code  
 
