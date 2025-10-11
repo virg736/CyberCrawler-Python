@@ -29,12 +29,12 @@ Le projet est divisé en plusieurs étapes pédagogiques et modulaires :
 
 ## 🧰 Outils modernes utilisés
 
-- **Python 3** — Langage principal du projet  
-- **Requests** & **BeautifulSoup4** — Pour le crawler web  
-- **Docker** — Pour exécuter l’application vulnérable (*Juice Shop*)  
-- **ip** & **ss** — Commandes réseau modernes (remplacent *ifconfig* / *netstat*)  
-- **curl** — Pour tester les pages web depuis la VM  
-- **Git & GitHub** — Pour la gestion et le partage du code  
+- **Python 3** - Langage principal du projet  
+- **Requests** & **BeautifulSoup4** - Pour le crawler web  
+- **Docker** - Pour exécuter l’application vulnérable (*Juice Shop*)  
+- **ip** & **ss** - Commandes réseau modernes (remplacent *ifconfig* / *netstat*)  
+- **curl** - Pour tester les pages web depuis la VM  
+- **Git & GitHub** - Pour la gestion et le partage du code  
 
 > 💡 Tous les outils utilisés sont récents, stables et conformes aux standards modernes de la cybersécurité et du développement Python.
 
