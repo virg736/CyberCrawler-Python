@@ -5,6 +5,23 @@
   <em>Illustration du projet <strong>CyberCrawler-Python</strong></em>
 </p>
 
+
+<div align="center">
+
+© 2025 Virginie Lechene — Tous droits réservés  
+Reproduction interdite sans autorisation préalable.  
+Usage pédagogique uniquement.  
+
+<a href="https://creativecommons.org/licenses/by-nd/4.0/" target="_blank">
+  <img src="https://licensebuttons.net/l/by-nd/4.0/88x31.png" alt="Licence Creative Commons BY-ND 4.0">
+</a>
+
+<br>
+<em>Image protégée – Propriété exclusive</em>
+
+</div>
+
+
 # Projet 1 - Réseau VM & Docker (Parrot ↔ Debian + Juice Shop)
 
 **Auteur :** Virginie Lechene  
