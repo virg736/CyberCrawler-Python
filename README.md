@@ -17,7 +17,7 @@ Usage pédagogique uniquement.
 </a>
 
 <br>
-<em>Image protégée – Propriété exclusive</em>
+<em>Image protégée - Propriété exclusive</em>
 
 </div>
 
