@@ -41,7 +41,7 @@ Le projet est divisé en plusieurs étapes pédagogiques et modulaires :
 ---
 ##  Résumé (ce que contient ce dépôt)
 Ce dépôt documente et automatise la préparation de l’environnement pour l’Étape 1 :
-1. Configuration réseau VirtualBox (réseau interne `Lan-Test`) entre Parrot et Debian.
+1. Configuration du réseau VirtualBox (réseau interne `Lan-Test`) entre Parrot et Debian.
 2. Attribution d’adresses IP statiques temporaires (192.168.100.10 pour Debian, 192.168.100.20 pour Parrot).
 3. Lancement du conteneur Juice Shop sur Debian (port 3000).
 4. Vérification de la connectivité (ping, curl) depuis Parrot.
