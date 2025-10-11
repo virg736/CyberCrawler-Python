@@ -143,81 +143,81 @@ Ce projet montre comment construire, étape par étape, un outil d’analyse web
 
 ---
 
-## 🧾 Vocabulaire & termes techniques (explications simples)
+## Vocabulaire & termes techniques (explications simples)
 
-**VM (Machine virtuelle)**  
+✅**VM (Machine virtuelle)**  
 Une machine « logique » qui tourne dans ton ordinateur (ex. Parrot, Debian). Permet d’isoler des environnements.
 
-**VirtualBox**  
+✅**VirtualBox**  
 Logiciel qui crée et gère des VM. Ici on met les deux VM sur un réseau interne pour qu’elles se parlent.
 
-**Docker / Conteneur**  
+✅**Docker / Conteneur**  
 Docker exécute des applications empaquetées (« conteneurs »). Un conteneur contient l’application + ses dépendances (ex. Juice Shop).
 
-**Image Docker**  
+✅**Image Docker**  
 Fichier standard qui sert à créer un conteneur (par ex. `bkimminich/juice-shop`).
 
-**Juice Shop**  
+✅**Juice Shop**  
 Application web volontairement vulnérable utilisée pour apprendre la sécurité web.
 
-**Parrot OS / Debian**  
+✅**Parrot OS / Debian**  
 Distributions Linux utilisées : Parrot (attaquant) et Debian (victime).
 
-**Interface réseau (ex. `enp0s3`)**  
+✅**Interface réseau (ex. `enp0s3`)**  
 Nom de la carte réseau dans la VM. On lui assigne une adresse IP pour communiquer.
 
-**IP / CIDR (ex. `192.168.100.10/24`)**  
+✅**IP / CIDR (ex. `192.168.100.10/24`)**  
 Adresse qui identifie une machine sur le réseau + format réseau (`/24` = masque).
 
-**Réseau interne (VirtualBox)**  
+✅**Réseau interne (VirtualBox)**  
 Mode réseau qui permet aux VM de communiquer entre elles sans sortir sur Internet.
 
-**Ping**  
+✅**Ping**  
 Commande qui vérifie si une machine répond (ICMP). Utile pour tester la connexion.
 
-**curl**  
+✅**curl**  
 Outil pour faire des requêtes HTTP depuis le terminal (tester une page web ou obtenir les en-têtes).
 
-**Port (ex. 3000)**  
+✅**Port (ex. 3000)**  
 Canal sur lequel une application écoute. Juice Shop écoute sur le port 3000.
 
-**ss / netstat**  
+✅**ss / netstat**  
 Outils pour lister les connexions et les services écoutant sur les ports (ex. `ss -tlnp`).
 
-**Crawler HTML**  
+✅**Crawler HTML**  
 Programme qui parcourt automatiquement les pages d’un site en suivant les liens internes.
 
-**URL**  
+✅**URL**  
 Adresse d’une page web (ex. `http://192.168.100.10:3000`).
 
-**HTTP / code 200**  
+✅**HTTP / code 200**  
 Protocole web. Code `200` signifie « OK » (page accessible).
 
-**BeautifulSoup / Requests**  
+✅**BeautifulSoup / Requests**  
 Bibliothèques Python utilisées pour récupérer une page (Requests) et la parser (BeautifulSoup).
 
-**Asynchrone (asyncio / httpx)**  
+✅**Asynchrone (asyncio / httpx)**  
 Technique pour accélérer le crawler en faisant plusieurs requêtes en même temps.
 
-**Logging**  
+✅**Logging**  
 Enregistrement des actions du programme (utile pour déboguer et générer des rapports).
 
-**SQL Injection (SQLi)**  
+✅**SQL Injection (SQLi)**  
 Type de faille où un attaquant injecte du code SQL dans un champ pour manipuler la base de données.
 
-**XSS (Cross-Site Scripting)**  
+✅**XSS (Cross-Site Scripting)**  
 Faille permettant d’injecter du JavaScript malveillant dans une page web.
 
-**Données sensibles**  
+✅**Données sensibles**  
 Infos qu’il ne faut pas exposer publiquement (mots de passe, clés API, adresses privées).
 
-**JSON / Markdown**  
+✅**JSON / Markdown**  
 Formats de sortie possibles pour les rapports : JSON (machine-readable) et Markdown (lisible humainement).
 
-**Playwright**  
+✅**Playwright**  
 Outil pour automatiser un navigateur (utile pour crawler des sites générés par JavaScript).
 
-**Bonnes pratiques & légalité**  
+✅**Bonnes pratiques & légalité**  
 Ce projet s’exécute dans un laboratoire isolé (VM + réseau interne). Ne scannez ni n’attaquez jamais des sites réels sans autorisation écrite.
 
 ---
