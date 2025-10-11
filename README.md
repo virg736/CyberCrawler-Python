@@ -135,6 +135,14 @@ ou récupérer le HTML
 curl `http://192.168.100.10:3000`  
 ✅ Attendu : HTTP/1.1 200 OK et contenu HTML  
 
+
+<p align="center">
+  <img src="https://github.com/virg736/CyberCrawler-Python/blob/main/projet_python1_curl_ok.PNG" 
+       alt="Test HTTP avec curl depuis Parrot vers Juice Shop" width="850">
+  <br>
+  <em>Test HTTP (curl) depuis Parrot vers Juice Shop — Réponse 200 OK</em>
+</p>
+
 ---
 
 ## Pourquoi ce projet est moderne et utile
