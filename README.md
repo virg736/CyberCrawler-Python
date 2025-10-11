@@ -22,12 +22,7 @@ Le projet est divisé en plusieurs étapes pédagogiques et modulaires :
 > Ce projet fait partie d’une série de **5 étapes** qui seront publiées progressivement.  
 > Chaque étape correspond à une fonctionnalité clé du projet **CyberCrawler-Python**.  
 >  
-> 🔔 **Pense à suivre le dépôt GitHub** pour être notifié des prochaines mises à jour :  
-> - Étape 2 → Détection d’injection SQL  
-> - Étape 3 → Détection de failles XSS  
-> - Étape 4 → Recherche de données sensibles  
-> - Étape 5 → Génération de rapport JSON / Markdown  
->  
+> 🔔 **Pensez à suivre le dépôt GitHub**  
 > Chaque étape sera documentée, testée et illustrée avec des exemples pratiques.
 
 ---
