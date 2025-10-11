@@ -222,7 +222,3 @@ Ce projet s’exécute dans un laboratoire isolé (VM + réseau interne). Ne sca
 
 ---
 
-Si tu veux, j’ajoute aussi :
-- une **section "Commandes utiles"** (exemples `ip addr`, `docker run`, `curl`) ; ou  
-- une **petite image/diagramme** expliquant la topologie VM → réseau interne → Docker.
-Tu veux laquelle ?  
