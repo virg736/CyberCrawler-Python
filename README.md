@@ -109,7 +109,7 @@ ip -br a
   <img src="https://github.com/virg736/CyberCrawler-Python/blob/main/projet_python_ip.PNG" 
        alt="Test de connectivité IP entre Parrot et Debian" width="850">
   <br>
-  <em>Test de connectivité entre Parrot (attaquant) et Debian (victime) — Ping réussi</em>
+  <em>Test de connectivité entre Parrot (attaquant) et Debian (victime) - Ping réussi</em>
 </p>
 
 
@@ -140,8 +140,9 @@ curl `http://192.168.100.10:3000`
   <img src="https://github.com/virg736/CyberCrawler-Python/blob/main/projet_python1_curl_ok.PNG" 
        alt="Test HTTP avec curl depuis Parrot vers Juice Shop" width="850">
   <br>
-  <em>Test HTTP (curl) depuis Parrot vers Juice Shop — Réponse 200 OK</em>
+  <em>Test HTTP (curl) depuis Parrot vers Juice Shop - Réponse 200 OK</em>
 </p>
+
 
 ---
 
