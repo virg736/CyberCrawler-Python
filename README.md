@@ -1,7 +1,6 @@
 # 🕷️ CyberCrawler-Python
 
-[![CodeQL](https://github.com/virg736/CyberCrawler-Python/actions/workflows/codeql.yml/badge.svg)](https://github.com/virg736/CyberCrawler-Python/actions/workflows/codeql.yml)
-Projet en Python pour l’automatisation de la sécurité web.
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 <p align="center">
