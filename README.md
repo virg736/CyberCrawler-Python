@@ -122,15 +122,15 @@ curl http://192.168.100.10:3000
 
 Ce projet fournit un environnement de cybersécurité moderne et pédagogique, conçu pour reproduire les pratiques réelles des ingénieurs en sécurité offensive.
 
-###  Une approche structurée et réaliste
-- Le projet est découpé en étapes claires et modulaires : Crawler → Détection SQLi → Détection XSS → Recherche de données sensibles → Rapports.  
-- Chaque étape est indépendante, automatisable et testable.  
-- L’environnement repose sur des machines virtuelles isolées (Parrot OS & Debian) pour garantir sécurité et légalité des tests.
+###  Une approche structurée et réaliste  
+- Le projet est découpé en étapes claires et modulaires : Crawler → Détection SQLi → Détection XSS → Recherche de données sensibles → Rapports.    
+- Chaque étape est indépendante, automatisable et testable.    
+- L’environnement repose sur des machines virtuelles isolées (Parrot OS & Debian) pour garantir sécurité et la légalité des tests.   
 
-### 🕸️ Le Crawler HTML récursif
-- Cœur du **Projet 1** : explore automatiquement les pages d’un site interne.  
-- Conçu pour découvrir les liens internes, éviter les doublons et fournir une carte claire du site - utile pour l’analyse de vulnérabilités.  
-- Implémenté en Python 3 avec `requests` et `BeautifulSoup`, des bibliothèques éprouvées et faciles à maintenir.
+### 🕸️ Le Crawler HTML récursif  
+- Cœur du **Projet 1** : explore automatiquement les pages d’un site interne.    
+- Conçu pour découvrir les liens internes, éviter les doublons et fournir une carte claire du site - utile pour l’analyse de vulnérabilités.    
+- Implémenté en Python 3 avec `requests` et `BeautifulSoup`, des bibliothèques éprouvées et faciles à maintenir.   
 
 ### 💡 Ce qui rend le projet moderne
 - Code simple, lisible et commenté - idéal pour l’apprentissage et la collaboration.  
