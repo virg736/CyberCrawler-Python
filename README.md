@@ -41,22 +41,22 @@ Le projet est divisé en plusieurs étapes pédagogiques et modulaires :
 ---
 ##  Résumé (ce que contient ce dépôt)
 Ce dépôt documente et automatise la préparation de l’environnement pour l’Étape 1 :
-1. Configuration du réseau VirtualBox (réseau interne `Lan-Test`) entre Parrot et Debian.
+1. Configuration réseau VirtualBox (réseau interne `Lan-Test`) entre Parrot et Debian.
 2. Attribution d’adresses IP statiques temporaires (192.168.100.10 pour Debian, 192.168.100.20 pour Parrot).
 3. Lancement du conteneur Juice Shop sur Debian (port 3000).
 4. Vérification de la connectivité (ping, curl) depuis Parrot.
 
-Toutes les commandes sont exécutées dans les VMs (captures d’écran disponibles dans le dossier `screenshots/`, si fourni).
+Toutes les commandes sont exécutées dans les VMs (captures d’écran disponibles dans le dossier `screenshots/` si fourni).
 
 ---
 
-##  Topologie réseau
+##  🔎 Topologie réseau
 - VirtualBox : réseau interne nommé `Lan-Test`.
 - **Debian (victime)** : 192.168.100.10/24
 - **Parrot (attaquant)** : 192.168.100.20/24
 - **Juice Shop (Docker)** : exposé sur `0.0.0.0:3000` dans Debian
 
-> Important : vérifier que, dans VirtualBox, les adaptateurs internes ont **le même nom exact** (`Lan-Test`) et que l'option **Câble branché** est cochée.
+> 🔎 Important : vérifier que, dans VirtualBox, les adaptateurs internes ont **le même nom exact** (`Lan-Test`) et que l'option **Câble branché** est cochée.
 
 ---
 
