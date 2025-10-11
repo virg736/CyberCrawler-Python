@@ -1,4 +1,4 @@
-# Projet 1 — Réseau VM & Docker (Parrot ↔ Debian + Juice Shop)
+# Projet 1 - Réseau VM & Docker (Parrot ↔ Debian + Juice Shop)
 
 **Auteur :** Virginie Lechene
 **Projet :** Python Project - Cybersecurity & Automation (préparation infra)
@@ -6,7 +6,7 @@
 
 ---
 
-## 🔧 Fonctionnalités / Étapes du projet
+##  Fonctionnalités / Étapes du projet
 Le projet est divisé en plusieurs étapes pédagogiques et modulaires :
 
 | Étape | Fonction |
@@ -19,7 +19,7 @@ Le projet est divisé en plusieurs étapes pédagogiques et modulaires :
 
 ---
 
-## 📘 Résumé (ce que contient ce dépôt)
+##  Résumé (ce que contient ce dépôt)
 Ce dépôt documente et automatise la préparation de l’environnement pour l’Étape 1 :
 1. Configuration réseau VirtualBox (réseau interne `Lan-Test`) entre Parrot et Debian.
 2. Attribution d’adresses IP statiques temporaires (192.168.100.10 pour Debian, 192.168.100.20 pour Parrot).
@@ -30,7 +30,7 @@ Toutes les commandes sont exécutées dans les VMs (captures d’écran disponib
 
 ---
 
-## 🗺️ Topologie réseau
+##  Topologie réseau
 - VirtualBox : réseau interne nommé `Lan-Test`.
 - **Debian (victime)** : 192.168.100.10/24
 - **Parrot (attaquant)** : 192.168.100.20/24
@@ -40,7 +40,7 @@ Toutes les commandes sont exécutées dans les VMs (captures d’écran disponib
 
 ---
 
-## 🛠️ Outils utilisés
+##  Outils utilisés
 - **VirtualBox** - virtualisation des machines.
 - **Parrot OS** - VM attaquante (outils pentest).
 - **Debian (12/13)** - VM victime (héberge Docker).
