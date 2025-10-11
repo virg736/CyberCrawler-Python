@@ -137,7 +137,6 @@ ss -tlnp | grep 3000
 </p>
 
 
-
 5) Tester HTTP (depuis Parrot)    
 
 curl -I `http://192.168.100.10:3000`  
