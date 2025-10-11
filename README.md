@@ -39,6 +39,7 @@ Le projet est divisé en plusieurs étapes pédagogiques et modulaires :
 > 💡 Tous les outils utilisés sont récents, stables et conformes aux standards modernes de la cybersécurité et du développement Python.
 
 ---
+
 ##  Résumé (ce que contient ce dépôt)
 Ce dépôt documente et automatise la préparation de l’environnement pour l’Étape 1 :
 1. Configuration réseau VirtualBox (réseau interne `Lan-Test`) entre Parrot et Debian.
@@ -129,16 +130,16 @@ Ce projet fournit un environnement de cybersécurité moderne et pédagogique, c
 
 ### 🕸️ Le Crawler HTML récursif  
 - Cœur du **Projet 1** : explore automatiquement les pages d’un site interne.    
-- Conçu pour découvrir les liens internes, éviter les doublons et fournir une carte claire du site - utile pour l’analyse de vulnérabilités.    
+- Conçu pour découvrir les liens internes, éviter les doublons et fournir une carte claire du site - utile pour l’analyse des vulnérabilités.    
 - Implémenté en Python 3 avec `requests` et `BeautifulSoup`, des bibliothèques éprouvées et faciles à maintenir.   
 
 ### 💡 Ce qui rend le projet moderne
-- Code simple, lisible et commenté - idéal pour l’apprentissage et la collaboration.  
+- Code simple, lisible et commenté - idéal pour l'apprentissage et la collaboration.  
 - Conçu pour évoluer facilement vers des technologies plus avancées :
-  - `asyncio` + `httpx` pour un crawl asynchrone et plus rapide ;  
-  - `logging` et configuration pour une exécution professionnelle ;  
-  - génération automatique de rapports JSON / Markdown ;  
-  - intégration possible de Playwright pour crawler les sites dynamiques (JS).  
+- `asyncio` + `httpx` pour un crawl asynchrone et plus rapide ;  
+- `logging` et configuration pour une exécution professionnelle ;  
+- génération automatique de rapports JSON / Markdown ;  
+- intégration possible de Playwright pour crawler les sites dynamiques (JavaScript).  
 - Respect des bonnes pratiques : le projet s’exécute dans un réseau local isolé et ne cible jamais des sites publics sans autorisation.
 
 ### En résumé
