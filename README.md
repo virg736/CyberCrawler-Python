@@ -140,3 +140,89 @@ Ce projet montre comment construire, étape par étape, un outil d’analyse web
 > 🔜 **Prochaine étape : Détection d’injection SQL**  
 > Je travaille maintenant sur l’Étape 2 (détection automatique d’injection SQL).  
 > Suivez le dépôt pour recevoir les mises à jour. 
+
+---
+
+## 🧾 Vocabulaire & termes techniques (explications simples)
+
+**VM (Machine virtuelle)**  
+Une machine « logique » qui tourne dans ton ordinateur (ex. Parrot, Debian). Permet d’isoler des environnements.
+
+**VirtualBox**  
+Logiciel qui crée et gère des VM. Ici on met les deux VM sur un réseau interne pour qu’elles se parlent.
+
+**Docker / Conteneur**  
+Docker exécute des applications empaquetées (« conteneurs »). Un conteneur contient l’application + ses dépendances (ex. Juice Shop).
+
+**Image Docker**  
+Fichier standard qui sert à créer un conteneur (par ex. `bkimminich/juice-shop`).
+
+**Juice Shop**  
+Application web volontairement vulnérable utilisée pour apprendre la sécurité web.
+
+**Parrot OS / Debian**  
+Distributions Linux utilisées : Parrot (attaquant) et Debian (victime).
+
+**Interface réseau (ex. `enp0s3`)**  
+Nom de la carte réseau dans la VM. On lui assigne une adresse IP pour communiquer.
+
+**IP / CIDR (ex. `192.168.100.10/24`)**  
+Adresse qui identifie une machine sur le réseau + format réseau (`/24` = masque).
+
+**Réseau interne (VirtualBox)**  
+Mode réseau qui permet aux VM de communiquer entre elles sans sortir sur Internet.
+
+**Ping**  
+Commande qui vérifie si une machine répond (ICMP). Utile pour tester la connexion.
+
+**curl**  
+Outil pour faire des requêtes HTTP depuis le terminal (tester une page web ou obtenir les en-têtes).
+
+**Port (ex. 3000)**  
+Canal sur lequel une application écoute. Juice Shop écoute sur le port 3000.
+
+**ss / netstat**  
+Outils pour lister les connexions et les services écoutant sur les ports (ex. `ss -tlnp`).
+
+**Crawler HTML**  
+Programme qui parcourt automatiquement les pages d’un site en suivant les liens internes.
+
+**URL**  
+Adresse d’une page web (ex. `http://192.168.100.10:3000`).
+
+**HTTP / code 200**  
+Protocole web. Code `200` signifie « OK » (page accessible).
+
+**BeautifulSoup / Requests**  
+Bibliothèques Python utilisées pour récupérer une page (Requests) et la parser (BeautifulSoup).
+
+**Asynchrone (asyncio / httpx)**  
+Technique pour accélérer le crawler en faisant plusieurs requêtes en même temps.
+
+**Logging**  
+Enregistrement des actions du programme (utile pour déboguer et générer des rapports).
+
+**SQL Injection (SQLi)**  
+Type de faille où un attaquant injecte du code SQL dans un champ pour manipuler la base de données.
+
+**XSS (Cross-Site Scripting)**  
+Faille permettant d’injecter du JavaScript malveillant dans une page web.
+
+**Données sensibles**  
+Infos qu’il ne faut pas exposer publiquement (mots de passe, clés API, adresses privées).
+
+**JSON / Markdown**  
+Formats de sortie possibles pour les rapports : JSON (machine-readable) et Markdown (lisible humainement).
+
+**Playwright**  
+Outil pour automatiser un navigateur (utile pour crawler des sites générés par JavaScript).
+
+**Bonnes pratiques & légalité**  
+Ce projet s’exécute dans un laboratoire isolé (VM + réseau interne). Ne scannez ni n’attaquez jamais des sites réels sans autorisation écrite.
+
+---
+
+Si tu veux, j’ajoute aussi :
+- une **section "Commandes utiles"** (exemples `ip addr`, `docker run`, `curl`) ; ou  
+- une **petite image/diagramme** expliquant la topologie VM → réseau interne → Docker.
+Tu veux laquelle ?  
