@@ -72,22 +72,22 @@ ip route
 Sur Parrot (attaquant) :  
 sudo ip addr add 192.168.100.20/24 dev enp0s3  
 sudo ip link set enp0s3 up  
-ip -br a  
+ip -br a    
 
 3) Vérifier la connectivité depuis Parrot  
 ping -c 4 192.168.100.10  
-✅ Attendu : 4 packets transmitted, 4 received, 0% packet loss   
+✅ Attendu : 4 packets transmitted, 4 received, 0% packet loss     
 
 4) Lancer Juice Shop dans Docker (sur Debian)  
 si Docker est déjà installé)  
 
 docker run -d --restart unless-stopped --name juice-shop -p 3000:3000 bkimminich/juice-shop  
 docker ps  
-ss -tlnp | grep 3000  
+ss -tlnp | grep 3000    
 
 docker run -d --restart unless-stopped --name juice-shop -p 3000:3000 bkimminich/juice-shop  
 docker ps  
-ss -tlnp | grep 3000  
+ss -tlnp | grep 3000    
 
 5) Tester HTTP (depuis Parrot)  
 
