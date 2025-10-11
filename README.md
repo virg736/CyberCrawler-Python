@@ -143,7 +143,7 @@ Ce projet fournit un environnement de cybersécurité moderne et pédagogique, c
 - Respect des bonnes pratiques : le projet s’exécute dans un réseau local isolé et ne cible jamais des sites publics sans autorisation.
 
 ### En résumé
-Ce projet montre comment construire, étape par étape, un outil d’analyse web moderne, éthique et automatisé, alliant programmation Python, méthodologie de tests et bonnes pratiques de cybersécurité.
+Ce projet montre comment construire, étape par étape, un outil d’analyse web moderne, éthique et automatisé, alliant programmation Python, méthodologie de test et bonnes pratiques de cybersécurité.
 
 ---
 
@@ -151,7 +151,7 @@ Ce projet montre comment construire, étape par étape, un outil d’analyse web
 > Ce dépôt contient actuellement **l’Étape 1 : Crawler HTML récursif** (configuration réseau + démonstration sur Juice Shop).  
 >  
 > 🔜 **Prochaine étape : Détection d’injection SQL**  
-> Je travaille maintenant sur l’Étape 2 (détection automatique d’injection SQL).  
+> Je travaille actuellement sur l'Étape 2 (détection automatique d’injections SQL).  
 > Suivez le dépôt pour recevoir les mises à jour. 
 
 ---
