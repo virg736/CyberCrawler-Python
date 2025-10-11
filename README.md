@@ -1,10 +1,7 @@
 # 🕷️ CyberCrawler-Python
 
 
-<p align="center">
-  <a href="https://github.com/virg736/CyberCrawler-Python/actions/workflows/codeql.yml">
-    <img src="https://github.com/virg736/CyberCrawler-Python/actions/workflows/codeql.yml/badge.svg" alt="CodeQL Status">
-  </a>
+
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License">
   </a>
