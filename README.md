@@ -128,6 +128,16 @@ docker run -d --restart unless-stopped --name juice-shop -p 3000:3000 bkimminich
 docker ps  
 ss -tlnp | grep 3000    
 
+
+<p align="center">
+  <img src="https://github.com/virg736/CyberCrawler-Python/blob/main/projet_python1_juice%20Shop.PNG" 
+       alt="Ping et lancement de Juice Shop dans Docker (Debian)" width="850">
+  <br>
+  <em>Ping entre Parrot ↔ Debian et lancement de Juice Shop dans Docker</em>
+</p>
+
+
+
 5) Tester HTTP (depuis Parrot)    
 
 curl -I `http://192.168.100.10:3000`  
