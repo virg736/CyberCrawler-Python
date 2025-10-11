@@ -46,7 +46,7 @@ Ce dépôt documente et automatise la préparation de l’environnement pour l�
 3. Lancement du conteneur Juice Shop sur Debian (port 3000).
 4. Vérification de la connectivité (ping, curl) depuis Parrot.
 
-Toutes les commandes sont exécutées dans les VMs (captures d’écran disponibles dans le dossier `screenshots/` si fourni).
+Toutes les commandes sont exécutées dans les VMs (captures d’écran disponibles dans le dossier `screenshots/`, si fourni).
 
 ---
 
