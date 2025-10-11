@@ -159,10 +159,10 @@ Ce projet montre comment construire, étape par étape, un outil d’analyse web
 ## Vocabulaire & termes techniques (explications simples)
 
 ✅**VM (Machine virtuelle)**  
-Une machine « logique » qui tourne dans ton ordinateur (ex. Parrot, Debian). Permet d’isoler des environnements.
+Une machine « logique » qui tourne à l'intérieur de ton ordinateur (ex. Parrot, Debian). Elle ermet d'isoler des environnements.
 
 ✅**VirtualBox**  
-Logiciel qui crée et gère des VM. Ici on met les deux VM sur un réseau interne pour qu’elles se parlent.
+Logiciel qui crée et gère des VM. Ici on met les deux VM sur un réseau interne pour qu'elles puissent communiquer.
 
 ✅**Docker / Conteneur**  
 Docker exécute des applications empaquetées (« conteneurs »). Un conteneur contient l’application + ses dépendances (ex. Juice Shop).
