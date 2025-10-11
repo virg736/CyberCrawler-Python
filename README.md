@@ -6,7 +6,7 @@
 
 ---
 
-##  Fonctionnalités / Étapes du projet
+##  Fonctionnalité clé / Étapes du projet
 Le projet est divisé en plusieurs étapes pédagogiques et modulaires :
 
 | Étape | Fonction |
