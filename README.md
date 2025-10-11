@@ -173,13 +173,10 @@ Fichier standard qui sert à créer un conteneur (par ex. `bkimminich/juice-shop
 ✅**Juice Shop**  
 Application web volontairement vulnérable utilisée pour apprendre la sécurité web.
 
-
-✅ **Parrot OS / Debian**  
-Distributions Linux utilisées dans ce projet :  
-- **Parrot OS** → pour les outils de tests d’intrusion (attaquant)  
-- **Debian** → pour héberger l’application vulnérable (victime)
-✅**Parrot OS / Debian**  
-Distributions Linux utilisées : Parrot OS pour les outils de tests d'intrusion (attaquant) et Debian   (victime).
+✅ **Parrot OS / Debian**    
+Distributions Linux utilisées dans ce projet :    
+- **Parrot OS** → pour les outils de tests d’intrusion (attaquant)    
+- **Debian** → pour héberger l’application vulnérable (victime)  
 
 ✅**Interface réseau (ex. `enp0s3`)**  
 Nom de la carte réseau dans la VM. On lui assigne une adresse IP pour communiquer.
