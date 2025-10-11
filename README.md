@@ -159,7 +159,7 @@ Ce projet montre comment construire, étape par étape, un outil d’analyse web
 ## Vocabulaire & termes techniques (explications simples)
 
 ✅**VM (Machine virtuelle)**  
-Une machine « logique » qui tourne à l'intérieur de ton ordinateur (ex. Parrot, Debian). Elle ermet d'isoler des environnements.
+Une machine « logique » qui tourne à l'intérieur de ton ordinateur (ex. Parrot, Debian). Elle permet d'isoler des environnements.
 
 ✅**VirtualBox**  
 Logiciel qui crée et gère des VM. Ici on met les deux VM sur un réseau interne pour qu'elles puissent communiquer.
@@ -186,10 +186,10 @@ Adresse qui identifie une machine sur le réseau + format réseau (`/24` = masqu
 Mode réseau qui permet aux VM de communiquer entre elles sans sortir sur Internet.
 
 ✅**Ping**  
-Commande qui vérifie si une machine répond (ICMP). Utile pour tester la connexion.
+Commande qui vérifie si une machine répond (ICMP). Utile pour tester la connectivité réseau.
 
 ✅**curl**  
-Outil pour faire des requêtes HTTP depuis le terminal (tester une page web ou obtenir les en-têtes).
+Outil pour effectuer des requêtes HTTP depuis le terminal (tester une page web ou obtenir les en-têtes).
 
 ✅**Port (ex. 3000)**  
 Canal sur lequel une application écoute. Juice Shop écoute sur le port 3000.
