@@ -109,16 +109,11 @@ docker run -d --restart unless-stopped --name juice-shop -p 3000:3000 bkimminich
 docker ps  
 ss -tlnp | grep 3000    
 
-5) Tester HTTP (depuis Parrot)  
+5) Tester HTTP (depuis Parrot)    
 
-curl -I `http://192.168.100.10:3000`
-ou récupérer le HTML
-curl `http://192.168.100.10:3000`
-✅ Attendu : HTTP/1.1 200 OK et contenu HTML
-
-curl -I http://192.168.100.10:3000  
+curl -I `http://192.168.100.10:3000`  
 ou récupérer le HTML  
-curl http://192.168.100.10:3000  
+curl `http://192.168.100.10:3000`  
 ✅ Attendu : HTTP/1.1 200 OK et contenu HTML  
 
 ---
