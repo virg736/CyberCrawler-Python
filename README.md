@@ -165,7 +165,8 @@ Une machine « logique » qui tourne à l'intérieur de ton ordinateur (ex. Parr
 Logiciel qui crée et gère des VM. Ici on met les deux VM sur un réseau interne pour qu'elles puissent communiquer.
 
 ✅**Docker / Conteneur**  
-Docker exécute des applications empaquetées (« conteneurs »). Un conteneur contient l’application + ses dépendances (ex. Juice Shop).
+Docker exécute des applications empaquetées (« conteneurs »).   
+Un conteneur contient l’application et ses dépendances (ex. Juice Shop).  
 
 ✅**Image Docker**  
 Fichier standard qui sert à créer un conteneur (par ex. `bkimminich/juice-shop`).
