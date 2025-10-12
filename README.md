@@ -26,7 +26,7 @@ Usage pédagogique uniquement.
 </div>
 
 
-# Projet 1 - Réseau VM & Docker (Parrot ↔ Debian + Juice Shop)
+# Projet 1 - Réseau VM & Docker (Parrot ↔ Debian + OWASP Juice Shop)
 
 **Auteur :** Virginie Lechene    
 **Projet :** Python Project - Cybersecurity & Automation (préparation de l'infrastructure)     
