@@ -214,7 +214,7 @@ sudo ip addr del 192.168.100.20/24 dev enp0s3   # sur Parrot
 Le script `crawler.py` a été testé avec succès :    
 - Environnement : **Parrot OS (VirtualBox)**    
 - Python 3.11, `requests`, `beautifulsoup4`    
-- Cible test : **Juice Shop (http://192.168.100.10:3000)**    
+- Cible test : **Juice Shop `http://192.168.100.10:3000`**    
 - Résultat :    
 Exploration terminée – 1 pages trouvées.  
 ➡️ Le script fonctionne correctement.
