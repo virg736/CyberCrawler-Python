@@ -186,14 +186,12 @@ curl `http://192.168.100.10:3000`
 </p>
 
 
----
+6) Nettoyage (retirer l’IP temporaire)  
 
-Nettoyage (retirer l’IP temporaire)
+Retirer les adresses IP ajoutées :  
 
-Si tu veux retirer les adresses IP ajoutées :
-
-sudo ip addr del 192.168.100.10/24 dev enp0s3   # sur Debian
-sudo ip addr del 192.168.100.20/24 dev enp0s3   # sur Parrot
+sudo ip addr del 192.168.100.10/24 dev enp0s3   # sur Debian  
+sudo ip addr del 192.168.100.20/24 dev enp0s3   # sur Parrot  
 
 ---
 
