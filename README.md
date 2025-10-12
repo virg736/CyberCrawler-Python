@@ -59,7 +59,7 @@ Le projet est divisé en plusieurs étapes pédagogiques et modulaires :
 
 - **Python 3** - Langage principal du projet  
 - **Requests** & **BeautifulSoup4** - Pour le crawler web  
-- **Docker** - Pour exécuter l’application vulnérable (* OWASP Juice Shop*)  
+- **Docker** - Pour exécuter l’application vulnérable (*OWASP Juice Shop*)  
 - **ip** & **ss** - Commandes réseau modernes (remplaçant *ifconfig* / *netstat*)  
 - **curl** - Pour tester les pages web depuis la VM  
 - **Git & GitHub** - Pour la gestion et le partage du code  
@@ -97,13 +97,13 @@ Toutes les commandes sont exécutées dans les VMs (captures d’écran disponib
 - **OWASP Juice Shop** - application vulnérable utilisée comme cible (port 3000).
 - **Python 3** (+ `requests`, `beautifulsoup4`) - scripts du projet (crawler & futurs modules).
 - **nmap**, **nikto**, **curl**, **ping**, **ss** - outils de vérification et reconnaissance réseau.
-- **Git / GitHub** - versioning et partage.
+- **Git / GitHub** - gestion de versions et partage.
 
 -----
 
 ## 🧭 Topologie du laboratoire
 
-> **Note :** Toutes les opérations du projet ont été réalisées dans un **réseau interne isolé (VirtualBox – Lan-Test)**.  
+> **Note :** Toutes les opérations décrites dans ce projet ont été réalisées dans un **réseau interne isolé (VirtualBox – Lan-Test)**.  
 > Aucune connexion Internet ni ressource externe n’a été utilisée, garantissant la **sécurité** et la **légalité** des tests.
 
 ---
