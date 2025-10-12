@@ -103,7 +103,7 @@ Toutes les commandes sont exécutées dans les VMs (captures d’écran disponib
 
 ## 🧭 Topologie du laboratoire
 
-> **Note :** Toutes les opérations décrites dans ce projet ont été réalisées dans un **réseau interne isolé (VirtualBox – Lan-Test)**.  
+> **Note :** Toutes les opérations décrites dans ce projet ont été réalisées dans un **réseau interne isolé (VirtualBox - Lan-Test)**.  
 > Aucune connexion Internet ni ressource externe n’a été utilisée, garantissant la **sécurité** et la **légalité** des tests.
 
 ---
@@ -111,20 +111,20 @@ Toutes les commandes sont exécutées dans les VMs (captures d’écran disponib
 
 ##  Commandes & procédure (chronologique, à exécuter dans les VMs)
 
-### 1) Vérifier les interfaces (sur chaque VM)
+### 1) Vérifier les interfaces (sur chaque VM)  
 
-ip -br a
-
-2) Assigner une IP temporaire & activer l’interface  
-
-(remplace enp0s3 par l’interface active si différent)  
-
-Sur Debian (victime) :
-
-sudo ip addr add 192.168.100.10/24 dev enp0s3  
-sudo ip link set enp0s3 up  
 ip -br a  
-ip route  
+
+2) Assigner une IP temporaire & activer l’interface    
+
+(remplace enp0s3 par l’interface active si différent)    
+
+Sur Debian (victime) :    
+
+sudo ip addr add 192.168.100.10/24 dev enp0s3    
+sudo ip link set enp0s3 up    
+ip -br a    
+ip route    
 
 
 <p align="center">
@@ -135,10 +135,10 @@ ip route
 </p>
 
 
-Sur Parrot (attaquant) :  
-sudo ip addr add 192.168.100.20/24 dev enp0s3  
-sudo ip link set enp0s3 up  
-ip -br a    
+Sur Parrot (attaquant) :    
+sudo ip addr add 192.168.100.20/24 dev enp0s3    
+sudo ip link set enp0s3 up    
+ip -br a      
 
 
 <p align="center">
