@@ -28,22 +28,22 @@ Usage pédagogique uniquement.
 
 # Projet 1 - Réseau VM & Docker (Parrot ↔ Debian + Juice Shop)
 
-**Auteur :** Virginie Lechene  
-**Projet :** Python Project - Cybersecurity & Automation (préparation de l'infrastructure)  
-**Objectif :** Mettre en place un laboratoire isolé (VirtualBox) entre deux machines virtuelles - **Parrot OS** (attaquant) et **Debian** (victime) - lancer une application vulnérable (OWASP Juice Shop) dans Docker sur la VM victime et vérifier l'accès depuis la VM attaquante.
+**Auteur :** Virginie Lechene    
+**Projet :** Python Project - Cybersecurity & Automation (préparation de l'infrastructure)     
+**Objectif :** Mettre en place un laboratoire isolé (VirtualBox) entre deux machines virtuelles - **Parrot OS** (attaquant) et **Debian** (victime) - lancer une application vulnérable (OWASP Juice Shop) dans Docker sur la VM victime et vérifier l'accès depuis la VM attaquante.   
 
 ---
 
-##  Fonctionnalité clé / Étapes du projet
+##  Fonctionnalités clés / Étapes du projet
 Le projet est divisé en plusieurs étapes pédagogiques et modulaires :
 
 | Étape | Fonction |
 |---:|:---|
 | ✅ Étape 1 | Crawler HTML récursif |
-| 🔜 Étape 2 | Détection d'injection SQL |
+| 🔜 Étape 2 | Détection d'injections SQL |
 | 🔜 Étape 3 | Détection de failles XSS |
 | 🔜 Étape 4 | Recherche de données sensibles |
-| 🔜 Étape 5 | Génération de rapport JSON / Markdown |
+| 🔜 Étape 5 | Génération de rapports JSON / Markdown |
 
 
 > 🧭 **Note importante :**  
@@ -59,7 +59,7 @@ Le projet est divisé en plusieurs étapes pédagogiques et modulaires :
 
 - **Python 3** - Langage principal du projet  
 - **Requests** & **BeautifulSoup4** - Pour le crawler web  
-- **Docker** - Pour exécuter l’application vulnérable (*Juice Shop*)  
+- **Docker** - Pour exécuter l’application vulnérable (* OWASP Juice Shop*)  
 - **ip** & **ss** - Commandes réseau modernes (remplaçant *ifconfig* / *netstat*)  
 - **curl** - Pour tester les pages web depuis la VM  
 - **Git & GitHub** - Pour la gestion et le partage du code  
