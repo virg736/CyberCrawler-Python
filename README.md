@@ -219,6 +219,14 @@ Le script `crawler.py` a été testé avec succès :
 Exploration terminée – 1 pages trouvées.  
 ➡️ Le script fonctionne correctement.
 
+
+<p align="center">
+  <img src="https://github.com/virg736/CyberCrawler-Python/blob/main/projet_python_test_script.2.PNG" 
+       alt="Test du script crawler exécuté sur Parrot OS" width="850">
+  <br>
+  <em>Installation des dépendances et exécution du script crawler sur Parrot OS</em>
+</p>
+
 ---
 
 ## Pourquoi ce projet est moderne et utile
