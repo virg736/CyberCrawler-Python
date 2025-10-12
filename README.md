@@ -188,6 +188,15 @@ curl `http://192.168.100.10:3000`
 
 ---
 
+Nettoyage (retirer l’IP temporaire)
+
+Si tu veux retirer les adresses IP ajoutées :
+
+sudo ip addr del 192.168.100.10/24 dev enp0s3   # sur Debian
+sudo ip addr del 192.168.100.20/24 dev enp0s3   # sur Parrot
+
+---
+
 ## Pourquoi ce projet est moderne et utile
 
 Ce projet fournit un environnement de cybersécurité moderne et pédagogique, conçu pour reproduire les pratiques réelles des ingénieurs en sécurité offensive.
