@@ -27,6 +27,27 @@ Usage pédagogique uniquement.
 
 ---
 
+## Sommaire — Projet 1 : CyberCrawler-Python
+
+- [Vue d'ensemble](#projet-1--cybercrawler-python)
+- [Objectif](#objectif)
+- [Fonctionnalités clés / Étapes](#fonctionnalités-clés--étapes)
+  - [Étape 1 — Crawler HTML récursif](#étape-1---crawler-html-récursif)
+  - [Étape 2 — Détection d'injections SQL](#étape-2---détection-dinjections-sql)
+  - [Étape 3 — Détection de failles XSS](#étape-3---détection-de-failles-xss)
+  - [Étape 4 — Recherche de données sensibles](#étape-4---recherche-de-données-sensibles)
+  - [Étape 5 — Génération de rapports JSON / Markdown](#étape-5---génération-de-rapports-json--markdown)
+- [Outils utilisés](#outils-utilisés)
+- [Résumé du contenu du dépôt](#résumé-du-contenu-du-dépôt)
+- [Topologie réseau](#topologie-réseau)
+- [Procédure & commandes (chronologie)](#procédure--commandes-chronologie)
+- [Tests de fonctionnement](#tests-de-fonctionnement)
+- [État du développement / Prochaine étape](#état-du-développement--prochaine-étape)
+- [Licence & Avertissement](#licence--avertissement)
+
+
+---
+
 # Projet 1    
 
 🕷️ CyberCrawler-Python  
