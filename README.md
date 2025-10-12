@@ -216,7 +216,7 @@ Le script `crawler.py` a été testé avec succès :
 - Python 3.11, `requests`, `beautifulsoup4`    
 - Cible test : **Juice Shop `http://192.168.100.10:3000`**    
 - Résultat :    
-Exploration terminée – 1 pages trouvées.  
+Exploration terminée - 1 pages trouvées.  
 ➡️ Le script fonctionne correctement.
 
 
