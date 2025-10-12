@@ -244,7 +244,7 @@ Ici on configure les deux VM sur un réseau interne pour qu'elles puissent commu
 
 ✅**Docker / Conteneur**  
 Docker exécute des applications empaquetées (« conteneurs »).   
-Un conteneur contient l’application et ses dépendances (ex. Juice Shop).  
+Un conteneur contient l’application et ses dépendances (ex. OWASP Juice Shop).  
 
 ✅**Image Docker**  
 Fichier standard qui sert à créer un conteneur (par ex. `bkimminich/juice-shop`).
@@ -254,14 +254,14 @@ Application web volontairement vulnérable utilisée pour apprendre la sécurit�
 
 ✅ **Parrot OS / Debian**    
 Distributions Linux utilisées dans ce projet :    
-- **Parrot OS** → pour les outils de tests d’intrusion (attaquant)    
+- **Parrot OS** → pour les outils de test d’intrusion (attaquant)    
 - **Debian** → pour héberger l’application vulnérable (victime)  
 
 ✅**Interface réseau (ex. `enp0s3`)**  
 Nom de la carte réseau dans la VM. On lui assigne une adresse IP pour communiquer.
 
 ✅**IP / CIDR (ex. `192.168.100.10/24`)**  
-Adresse qui identifie une machine sur le réseau + format réseau (`/24` = masque).
+Adresse qui identifie une machine sur le réseau + format réseau (`/24` = masque réseau).
 
 ✅**Réseau interne (VirtualBox)**  
 Mode réseau qui permet aux VM de communiquer entre elles sans sortir sur Internet.
@@ -273,10 +273,10 @@ Commande qui vérifie si une machine répond (ICMP). Utile pour tester la connec
 Outil permettant d'effectuer des requêtes HTTP depuis le terminal (tester une page web ou obtenir les en-têtes).
 
 ✅**Port (ex. 3000)**  
-Canal sur lequel une application écoute. Juice Shop écoute sur le port 3000.
+Canal sur lequel une application écoute. OWASP Juice Shop écoute sur le port 3000.
 
 ✅**ss / netstat**  
-Outils permettant de lister les connexions et les services écoutant sur les ports (ex. `ss -tlnp`).
+Outils permettant de lister les connexions et les services à l'écoute sur les ports (ex. `ss -tlnp`).
 
 ✅**Crawler HTML**  
 Programme qui parcourt automatiquement les pages d’un site en suivant les liens internes.
@@ -287,11 +287,11 @@ Adresse d’une page web (ex. `http://192.168.100.10:3000`).
 ✅**HTTP / code 200**  
 Protocole web. Code `200` signifie « OK » (page accessible).
 
-✅**BeautifulSoup / Requests**  
+✅**BeautifulSoup4 / Requests**  
 Bibliothèques Python utilisées pour récupérer et analyser le contenu HTML.
 
 ✅**Asynchrone (asyncio / httpx)**  
-Technique pour accélérer le crawler en faisant plusieurs requêtes en même temps.
+Technique pour accélérer le crawler en lançant plusieurs requêtes en parallèle.
 
 ✅**Logging**  
 Enregistrement des actions du programme (utile pour déboguer et générer des rapports).
@@ -303,10 +303,10 @@ Type de faille où un attaquant injecte du code SQL dans un champ afin manipuler
 Faille permettant d’injecter du code JavaScript malveillant dans une page web.
 
 ✅**Données sensibles**  
-Informationss qu’il ne faut pas exposer publiquement (mots de passe, clés API, adresses privées).
+Informations qu’il ne faut pas exposer publiquement (mots de passe, clés API, adresses privées).
 
 ✅**JSON / Markdown**  
-Formats de sortie utilisées pour les rapports : JSON (machine-readable) et Markdown (lisible par humain).
+Formats de sortie utilisées pour les rapports : JSON (machine-readable) et Markdown (lisible par l'humain).
 
 ✅**Playwright**  
 Outil permettant d'automatiser un navigateur (utile pour crawler des sites générés par JavaScript).
