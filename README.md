@@ -27,7 +27,7 @@ Usage pédagogique uniquement.
 
 ---
 
-# Projet 1 - Réseau VM & Docker (Parrot ↔ Debian + OWASP Juice Shop)  
+# Projet 1    
 
 🕷️ CyberCrawler-Python  
 
