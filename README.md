@@ -28,9 +28,7 @@ Usage pédagogique uniquement.
 
 # Projet 1 - Réseau VM & Docker (Parrot ↔ Debian + OWASP Juice Shop)
 
-**Auteur :** Virginie Lechene    
-**Projet :** Python Project - Cybersecurity & Automation (préparation de l'infrastructure)     
-**Objectif :** Mettre en place un laboratoire isolé (VirtualBox) entre deux machines virtuelles - **Parrot OS** (attaquant) et **Debian** (victime) - lancer une application vulnérable (OWASP Juice Shop) dans Docker sur la VM victime et vérifier l'accès depuis la VM attaquante.   
+
 
 ---
 
