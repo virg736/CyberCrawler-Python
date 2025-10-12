@@ -27,7 +27,7 @@ Usage pédagogique uniquement.
 
 ---
 
-## Sommaire — Projet 1 : CyberCrawler-Python
+## Sommaire - Projet 1 : CyberCrawler-Python
 
 - [Vue d'ensemble](#projet-1--cybercrawler-python)
 - [Objectif](#objectif)
