@@ -28,7 +28,24 @@ Usage pédagogique uniquement.
 
 # Projet 1 - Réseau VM & Docker (Parrot ↔ Debian + OWASP Juice Shop)
 
+# 🕷️ CyberCrawler-Python
 
+## Projet 1 — Réseau VM & Docker (Parrot ↔ Debian + OWASP Juice Shop)
+
+📚 *Python Project — Cybersecurity & Automation (préparation de l’infrastructure)*  
+👩‍💻 **Auteur :** Virginie Lechene  
+📆 **Année :** 2025
+
+---
+
+### 🎯 Objectif
+
+Mettre en place un **laboratoire de cybersécurité isolé** (VirtualBox) entre deux machines virtuelles :
+
+- **Parrot OS** — VM attaquante  
+- **Debian** — VM victime
+
+Sur la machine victime, déployer l’application vulnérable **OWASP Juice Shop** dans un conteneur Docker, puis vérifier l’accès HTTP depuis la VM attaquante.
 
 ---
 
