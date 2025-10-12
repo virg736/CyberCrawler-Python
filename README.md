@@ -186,7 +186,7 @@ curl `http://192.168.100.10:3000`
 </p>
 
 
-6) Nettoyage (retirer l’IP temporaire)  
+6) Nettoyage    
 
 Retirer les adresses IP ajoutées :  
 
@@ -202,11 +202,11 @@ Ce projet fournit un environnement de cybersécurité moderne et pédagogique, c
 ###  Une approche structurée et réaliste  
 - Le projet est découpé en étapes claires et modulaires : Crawler → Détection SQLi → Détection XSS → Recherche de données sensibles → Rapports.    
 - Chaque étape est indépendante, automatisable et testable.    
-- L’environnement repose sur des machines virtuelles isolées (Parrot OS & Debian) pour garantir sécurité et la légalité des tests.   
+- L’environnement repose sur des machines virtuelles isolées (Parrot OS & Debian) afin de garantir la sécurité et la légalité des tests.   
 
 ### 🕸️ Le Crawler HTML récursif  
-- Cœur du **Projet 1** : explore automatiquement les pages d’un site interne.    
-- Conçu pour découvrir les liens internes, éviter les doublons et fournir une carte claire du site - utile pour l’analyse des vulnérabilités.    
+- Cœur du **Projet étape 1** : explore automatiquement les pages d’un site interne.    
+- Conçu pour découvrir les liens internes, éviter les doublons et fournir une cartographie claire du site - utile pour l'analyse des vulnérabilités.    
 - Implémenté en Python 3 avec `requests` et `BeautifulSoup`, des bibliothèques éprouvées et faciles à maintenir.   
 
 ### 💡 Ce qui rend le projet moderne
@@ -224,10 +224,10 @@ Ce projet montre comment construire, étape par étape, un outil d’analyse web
 ---
 
 > 🚧 **État du développement - Projet 1**  
-> Ce dépôt contient actuellement **l’Étape 1 : Crawler HTML récursif** (configuration réseau + démonstration sur Juice Shop).  
+> Ce dépôt contient actuellement **l'Étape 1 : Crawler HTML récursif** (configuration réseau + démonstration sur OWASP Juice Shop).  
 >  
-> 🔜 **Prochaine étape : Détection d’injection SQL**  
-> Je travaille actuellement sur l'Étape 2 (détection automatique d’injections SQL).  
+> 🔜 **Prochaine étape : Détection d'injections SQL**  
+> Je travaille actuellement sur l'Étape 2 (détection automatique d'injections SQL).  
 > Suivez le dépôt pour recevoir les mises à jour. 
 
 ---
@@ -239,8 +239,8 @@ Une machine « logique » qui tourne à l'intérieur de ton ordinateur (ex. Parr
 Elle permet d'isoler des environnements.  
 
 ✅**VirtualBox**  
-Logiciel qui crée et gère des VM.  
-Ici on met les deux VM sur un réseau interne pour qu'elles puissent communiquer.  
+Logiciel qui crée et gère des machines virtuelles.  
+Ici on configure les deux VM sur un réseau interne pour qu'elles puissent communiquer entre elles.  
 
 ✅**Docker / Conteneur**  
 Docker exécute des applications empaquetées (« conteneurs »).   
