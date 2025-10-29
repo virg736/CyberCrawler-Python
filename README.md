@@ -157,7 +157,7 @@ ip -br a
 Sur Debian (victime) :    
 
 sudo ip addr add 192.168.100.10/24 dev enp0s3    
-sudo ip link set enp0s3 up    
+sudo ip link set dev enp0s3 up    
 ip -br a    
 ip route    
 
@@ -172,7 +172,7 @@ ip route
 
 Sur Parrot (attaquant) :    
 sudo ip addr add 192.168.100.20/24 dev enp0s3    
-sudo ip link set enp0s3 up    
+sudo ip link set dev enp0s3 up    
 ip -br a      
 
 
