@@ -204,6 +204,9 @@ ss -tlnp | grep 3000
   <em>Ping entre Parrot ↔ Debian et lancement de Juice Shop dans Docker</em>
 </p>
 
+(*) Note : Le token affiché sur une capture d’écran provenait d’une instance locale (VirtualBox). 
+Le conteneur Juice Shop est actuellement arrêté et supprimé, le token n’est plus valide. 
+Toutes les démonstrations ont été effectuées dans un environnement isolé à des fins pédagogiques.
 
 5) Tester l'accés HTTP (depuis Parrot)    
 
