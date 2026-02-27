@@ -12,18 +12,11 @@
 
 <div align="center">
 
-© 2025 Virginie Lechene - Tous droits réservés  
-Reproduction interdite sans autorisation préalable.  
-Usage pédagogique uniquement.  
+© 2025 Virginie Lechene 
 
 <a href="https://creativecommons.org/licenses/by-nd/4.0/" target="_blank">
   <img src="https://licensebuttons.net/l/by-nd/4.0/88x31.png" alt="Licence Creative Commons BY-ND 4.0">
 </a>
-
-<br>
-<em>Image protégée - Propriété exclusive</em>
-
-</div>
 
 ---
 
@@ -391,11 +384,12 @@ Ce projet est destiné exclusivement à des fins pédagogiques, notamment dans l
 ⚠️ L’auteure ne cautionne ni n’autorise l’utilisation de ce script en dehors d’un cadre légal strictement défini.
 Toute utilisation non conforme est interdite et relève uniquement de la responsabilité de l’utilisateur.
 
-## Droits sur les visuels
-Les visuels, illustrations ou captures présents dans ce dépôt sont la propriété exclusive de l’auteure.
-Toute reproduction ou utilisation non autorisée est interdite.
+## 📷 Droits sur les visuels
 
+Les visuels de ce dépôt sont protégés par la licence CC BY-ND 4.0.
+Attribution obligatoire – Modification interdite.
 
+© 2026 Virginie Lechene
 
 
 
