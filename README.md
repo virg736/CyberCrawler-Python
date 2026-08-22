@@ -135,11 +135,8 @@ Toutes les commandes sont exécutées dans les VMs (captures d’écran disponib
 
 > **Note :** Toutes les opérations décrites dans ce projet ont été réalisées dans un **réseau interne isolé (VirtualBox - LAN-Test)**.  
 > Une connexion Internet a pu être utilisée uniquement pour l’installation préalable des dépendances. Les tests ont ensuite été réalisés exclusivement dans le réseau interne isolé.
-> **Note :** Toutes les opérations décrites dans ce projet ont été réalisées dans un **réseau interne isolé (VirtualBox - Lan-Test)**.  
-> Une connexion Internet a pu être utilisée uniquement pour l'installation préalable des dépendances, garantissant la **sécurité** et la **légalité** des tests.
 
 ---
-
 
 ##  Commandes & procédure (chronologique, à exécuter dans les VMs)
 
