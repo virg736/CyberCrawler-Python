@@ -12,7 +12,7 @@
 
 <div align="center">
 
-© 2025 Virginie Lechene 
+© 2026 Virginie Lechene 
 
 <a href="https://creativecommons.org/licenses/by-nd/4.0/" target="_blank">
   <img src="https://licensebuttons.net/l/by-nd/4.0/88x31.png" alt="Licence Creative Commons BY-ND 4.0">
