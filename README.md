@@ -70,10 +70,10 @@ Le projet est divisé en plusieurs étapes pédagogiques et modulaires :
 | Étape | Fonction |
 |---:|:---|
 | ✅ Étape 1 | Crawler HTML récursif |
-| 🔜 Étape 2 | Détection d'injections SQL |
-| 🔜 Étape 3 | Détection de failles XSS |
-| 🔜 Étape 4 | Recherche de données sensibles |
-| 🔜 Étape 5 | Génération de rapports JSON / Markdown |
+| ✅ Étape 2 | Détection d'injections SQL |
+| ✅ Étape 3 | Détection de failles XSS |
+| ✅ Étape 4 | Recherche de données sensibles |
+| ✅ Étape 5 | Génération de rapports JSON / Markdown |
 
 
 > 🧭 **Note importante :**  
